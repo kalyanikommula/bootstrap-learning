@@ -1,3 +1,4 @@
+@import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
 .uppercase {
     text-transform: uppercase;
 }
@@ -17,6 +18,11 @@
 }
 .season-list {
     color: #fafafa;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: 'Exo', sans-serif;
+    margin: 0;
+    margin-bottom: 10px;
     
 }
 
