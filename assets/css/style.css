@@ -25,4 +25,15 @@
     margin-bottom: 10px;
     
 }
+.social-networks {
+    background-color: hsl(0, 1%, 51%);
+    height: 120px;
+    padding: 20px;
+}   
+.list-inline-item i {
+    font-size: 25px;
+    color: #fafafa;
+    margin: 5px;
+    padding: 2px 5px 2px 5px;
+}
 
