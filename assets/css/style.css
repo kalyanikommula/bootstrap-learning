@@ -1,14 +1,22 @@
-
-
-
-.logo {
-    background: url('../images/india-best-places-to-visit-agra.jpg');
+.uppercase {
+    text-transform: uppercase;
+}
+.seasons-image {
+    background-image: url('../images/pexels-valiphotos-589808.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
- -webkit-transition: all .5s ease-in-out;
-
+    -webkit-transition: all .5s ease-in-out;
 }
+.seasons-image-heading {
+    font-size :xx-large;
+    color: #fafafa;
+}
+.season-list {
+    color: #fafafa;
+    
+}
+
