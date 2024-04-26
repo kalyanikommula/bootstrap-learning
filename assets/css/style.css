@@ -2,7 +2,7 @@
 .uppercase {
     text-transform: uppercase;
 }
-.seasons-image {
+.seasons-main-image {
     background-image: url('../images/pexels-valiphotos-589808.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -11,11 +11,24 @@
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0%;
 }
-.seasons-image-heading {
+.seasons-image-heading h1 {
     font-size :xx-large;
     color: #fafafa;
+    font-weight: 700;
+    text-decoration: underline;
+
 }
+.seasons-image-heading p {
+    font-size: 30px;
+    color: #fafafae4;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
 .season-list {
     color: #fafafa;
     font-size: 25px;
@@ -38,16 +51,17 @@
 }
 
 .season-image {
-    max-width: 450px;
-    height: 380px;
+    max-width: 100%;
+    height: 100%;
     border-radius: 50%;
     margin-top: 10px;
-    padding: 20px 20px;
+    padding: 10px 10px;
+    margin: 0;
 }
 .season-message {
     font-size: 22px;
     margin-top: 15px;
-    padding: 25px 25px;
+    padding: 20px 20px;
     color:#f6dfdf
 }
 .season-heading {
@@ -55,4 +69,5 @@
     font-weight: 700;
     margin-top: 10px;
     margin-left: 20px;
+    color: rgba(248, 212, 10, 0.949)
 }
